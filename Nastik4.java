@@ -11,31 +11,31 @@ public class Nastik4
         
         if((N<9999)&(N>1000))        
         {        
-            System.out.println("vy vveli 4eh znachnoe chislo");
+            System.out.println("вы ввели 4ех значное число");
             d=N%10;
-            System.out.println(d);//4567 d=7
+            System.out.println(d);
             c=(N/10)%10;        
             System.out.println(c);
             b=(N/100)%10;
             System.out.println(b);
             a=N/1000;
-            System.out.println(a);//4567 a=4
+            System.out.println(a);
             if((a<b)&(b<c)&(c<d))
             {
-                System.out.println("vozrastaushaya posledovatelnost");
+                System.out.println("возрастающая последовательность");
             }
             if((a>b)&(b>c)&(c>d))
             {
-                System.out.println("ybivaushaya");
+                System.out.println("убывающая последовательность");
             }
             else
             {
-                System.out.println("posledovatelnosti net");
+                System.out.println("последовательности нет");
             }
         }
         else
         {
-            System.out.println("ne 4eh znachnoy chislo");
+            System.out.println("не 4ех значное число");
         }    
 
         in.close();
