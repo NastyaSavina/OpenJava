@@ -12,7 +12,7 @@ public class Nastik3
         kr1=3.1415*r*r;
         kr2=3.1415*R*R;
         kl=kr2-kr1;        
-        System.out.println("ploshad kolca: "+kl);
+        System.out.println("площадь кольца: "+kl);
         
         in.close();
     }
