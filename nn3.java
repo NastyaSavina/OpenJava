@@ -1,31 +1,31 @@
 import java.util.*;
 
-public class nn3
+public class N3
 {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
         char ch;
-        System.out.println("ввеедите букву: ");
+        System.out.println("РІРІРµРґРёС‚Рµ Р±СѓРєРІСѓ: ");
         ch = in.next().charAt(0);
         switch (ch) {
             case 'a':
-            System.out.println("ваша буква гласная ");
+            System.out.println("РІР°С€Р° Р±СѓРєРІР° РіР»Р°СЃРЅР°СЏ ");
                 break;
             case 'e':
-            System.out.println("ваша буква гласная ");
+            System.out.println("РІР°С€Р° Р±СѓРєРІР° РіР»Р°СЃРЅР°СЏ ");
                 break;
             case 'i':
-            System.out.println("ваша буква гласная "); 
+            System.out.println("РІР°С€Р° Р±СѓРєРІР° РіР»Р°СЃРЅР°СЏ "); 
                 break;
             case 'o':
-            System.out.println("ваша буква гласная ");   
+            System.out.println("РІР°С€Р° Р±СѓРєРІР° РіР»Р°СЃРЅР°СЏ  ");   
                 break;
             case 'u':
-            System.out.println("ваша буква гласная ");   
+            System.out.println("РІР°С€Р° Р±СѓРєРІР° РіР»Р°СЃРЅР°СЏ  ");   
                 break;
             default:
-            System.out.println("ваша буква не гласная ");
+            System.out.println("РІР°С€Р° Р±СѓРєРІР° РЅРµРіР»Р°СЃРЅР°СЏ  ");
                 break;
         }
     }
