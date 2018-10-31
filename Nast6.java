@@ -6,11 +6,11 @@ public class Nast6
     {
         Scanner in = new Scanner(System.in);
         int N ,v,s,a,b,c,d,p;  
-        System.out.println("vvedite 7mi znachnoe chislo");
+        System.out.println("введите семизначное число ");
         N= in.nextInt();
     if((N<=9999999)&(N>=1000000))
     {
-        System.out.println("vy vveli 7m znachnoe chislo");
+        System.out.println("вы ввели семизначное число");
         d=N%10;
         c=(N/10)%10;
         b=(N/100)%10;
@@ -42,7 +42,7 @@ public class Nast6
         
     else
     {
-        System.out.println("ne 7m znachnoe chislo");
+        System.out.println("не семизначное число");
 
     }
     in.close();
