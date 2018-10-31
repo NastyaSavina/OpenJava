@@ -19,7 +19,7 @@ public class N3
             System.out.println("ваша буква гласная "); 
                 break;
             case 'o':
-            System.out.println("ваша буква гласная  ");   
+            System.out.println("ваша  буква гласная  ");   
                 break;
             case 'u':
             System.out.println("ваша буква гласная  ");   
