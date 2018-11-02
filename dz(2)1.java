@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class N1
+public class dz21
 {
     public static void main(String[]args)
     {
