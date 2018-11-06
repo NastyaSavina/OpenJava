@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Nastik4
+public class dz14
 {
     public static void main(String[] args)
     {
