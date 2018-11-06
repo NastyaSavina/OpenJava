@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class pet 
+public class dz25 
 {
     public static void main(String[] args)
     {
