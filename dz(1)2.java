@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Nastik2
+public class dz12
 {
     public static void main(String[] args)
     {
@@ -11,10 +11,10 @@ public class Nastik2
         m_ml=m_kg*1000000;        
         m_gr=m_kg*1000;        
         m_tn=m_kg*0.001;        
-        System.out.println("kg: "+m_kg);       
-        System.out.println("milligramm: "+m_ml);        
-        System.out.println("gramm: "+m_gr);        
-        System.out.println("tonn: "+m_tn); 
+        System.out.println("килограмм : "+m_kg);       
+        System.out.println("миллиграмм : "+m_ml);        
+        System.out.println("грамм : "+m_gr);        
+        System.out.println("тонн : "+m_tn); 
 
         in.close();
     }
