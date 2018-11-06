@@ -6,12 +6,12 @@ public class dz21
     {
         Scanner in = new Scanner(System.in);
         {
-            System.out.println("vvedite x");
+            System.out.println("введите x");
             double x1,x2,x3;
             x1=in.nextDouble();
             x2=in.nextDouble();
             x3=in.nextDouble();
-            System.out.println("vvedite y");
+            System.out.println("введите y");
             double y1,y2,y3;
             y1=in.nextDouble();
             y2=in.nextDouble();
@@ -25,18 +25,18 @@ public class dz21
             ca=Math.sqrt(ca);
             if((ab<bc+ca)&(bc<ca+ab)&(ca<ab+bc))
             {
-                System.out.println("tochki vershiny");
+                System.out.println("точки вершины");
                 ab=Math.pow(ab,2);
                 bc=Math.pow(bc,2);
                 ca=Math.pow(ca,2);
                 if((ab<bc+ca)||(bc<ca+ab)||(ca<ab+bc))
                 {
-                    System.out.println("treugol priam");
+                    System.out.println("треугольник прямоугольный");
                 }
             }
             else
             {
-               System.out.println("tochki ne vershiny");
+               System.out.println("точки не вершины");
             }
         
         
