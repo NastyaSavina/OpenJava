@@ -5,7 +5,7 @@ public class N333
     public static void main(String[]args)
     {
         Scanner in = new Scanner(System.in);
-        System.out.println("vvedite bukvu ");
+        System.out.println("введите букву ");
         int flag=0;
         char ch;
         ch = in.next().charAt(0);
@@ -28,7 +28,7 @@ public class N333
                 flag++;
                 if(flag==1)
                 {
-                    System.out.println("glasnaya ");
+                    System.out.println("гласная ");
                 }
     
             }
