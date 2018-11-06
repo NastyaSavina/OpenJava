@@ -1,20 +1,20 @@
 import java.util.*;
 
-public class N32
+public class dz231
 {
     public static void main(String[]args)
     {
         Scanner in = new Scanner(System.in);
         char v;
-        System.out.println("ввеедите букву: ");
+        System.out.println("РІРІРµРґРёС‚Рµ РіР»Р°СЃРЅСѓСЋ : ");
         v = in.next().charAt(0);
         if((v=='a')||(v=='e')||(v=='i')||(v=='o')||(v=='u'))
         {
-            System.out.println("буква гласная ");
+            System.out.println("Р±СѓРєРІР° РіР»Р°СЃРЅР°СЏ ");
         }
         else
         {
-            System.out.println("буква не гласная ");
+            System.out.println("Р±СѓРєРІР° РЅРµ РіР»Р°СЃРЅР°СЏ ");
         }
         in.close();
 
