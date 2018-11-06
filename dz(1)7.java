@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Nast7
+public class dz17
 {
     public static void main(String[]args)
     {
