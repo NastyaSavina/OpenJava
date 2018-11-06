@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class N333
+public class dz232
 {
     public static void main(String[]args)
     {
