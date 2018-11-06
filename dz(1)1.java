@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Nastik1
+public class dz11
 {
     public static void main(String[] args)
     {
@@ -12,11 +12,11 @@ public class Nastik1
         
         if((a==b)&(a==c))
         {
-            System.out.println("chisla odinakovye");
+            System.out.println("числа одинаковые");
         }
         else
         {
-            System.out.println("chisla razlichny");
+            System.out.println("числа различные");
         }
 
         in.close();
