@@ -9,21 +9,21 @@ public class dz232
         int flag=0;
         char ch;
         ch = in.next().charAt(0);
-        char cats[];
-        cats=new char[5];
+        char word[];
+        word=new char[5];
         for(int i=0;i<5;i++)
         {
-            cats[i]=0;
+            word[i]=0;
 
         }
-        cats[0]='a';
-        cats[1]='e';
-        cats[2]='o';
-        cats[3]='u';
-        cats[4]='i';
+        word[0]='a';
+        word[1]='e';
+        word[2]='o';
+        word[3]='u';
+        word[4]='i';
         for(int i=0;i<5;i++)
         {
-            if(ch==cats[i])
+            if(ch==word[i])
             {
                 flag++;
                 if(flag==1)
