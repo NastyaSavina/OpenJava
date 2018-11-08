@@ -11,12 +11,12 @@ public class dz25
         z=in.nextInt();
         if(((z%4==0)&&(z%100==0)&&(z%400==0))||((z%4==0)&(!(z%100==0))&(!(z%400==0))))
         {
-            System.out.println("vesokosnyi god");
+            System.out.println("високосный год");
             den(x,y,z);
         }
         else
         {
-            System.out.println("ne vesokosnyi");
+            System.out.println("не високосный");
             den1(x,y,z);
         }
         if(!(y==2))
@@ -25,7 +25,7 @@ public class dz25
                      {
                         if(x>30)
                         {
-                           System.out.println("vvedite drugoi den");
+                           System.out.println("введите другой день");
                            do
                            { 
                                x=in.nextInt();
@@ -35,12 +35,12 @@ public class dz25
                          {
                             x=1;
                             y++;
-                            System.out.println("sled den"+x+"/"+y+"/"+z);
+                            System.out.println("следующий день"+x+"/"+y+"/"+z);
                          }
                         else 
                         {
                           x++;
-                          System.out.println("sled den"+x+"/"+y+"/"+z);
+                          System.out.println("следующий день"+x+"/"+y+"/"+z);
                         }          
                      }
         else 
@@ -50,7 +50,7 @@ public class dz25
                     x=1;
                     y=1;
                     z++;
-                    System.out.println("sled den"+x+"/"+y+"/"+z);
+                    System.out.println("следующий день"+x+"/"+y+"/"+z);
                 }
              else 
               {
@@ -58,12 +58,12 @@ public class dz25
                    {
                     x=1;
                     y++;
-                    System.out.println("sled den"+x+"/"+y+"/"+z);
+                    System.out.println("следующий день"+x+"/"+y+"/"+z);
                    }
                    else 
                    {
                       x++;
-                      System.out.println("sled den"+x+"/"+y+"/"+z);
+                      System.out.println("следующий день"+x+"/"+y+"/"+z);
                    }    
               }      
             }
