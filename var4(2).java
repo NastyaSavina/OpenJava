@@ -24,7 +24,7 @@ public class var42
         max=array[0];
         for(int i=0;i<n;i++)
         {
-            if(array[i]>=array[0])
+            if(array[i]>=max)
             {
                 
                 max=array[i];
